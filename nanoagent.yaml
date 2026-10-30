@@ -1,10 +1,37 @@
-id: vc-graph-rag
-version: 1.0.0
-runtime: python3.11
-entrypoint: src.plugin.__main__
-permissions:
-  network: false
-tools:
-  - graph_traverse
-tasks:
-  - graph-rag-query
+_ > nanoagent.plugin.v0001.ManifestConfig:
+id: vc-query-evaluator
+name: VC Peer Query
+version: 0.1.0
+status: ready
+spec: nanoagent.plugin/v0001
+
+runtime > nanoagent.plugin.v0001.RuntimeConfig:
+  type: mcp_stdio
+  command: [uv, run, --frozen, python, -m, plugin]
+
+permissions > nanoagent.plugin.v0001.PermissionsConfig:
+  network > nanoagent.plugin.v0001.NetworkConfig:
+    hosts: []
+  filesystem > nanoagent.plugin.v0001.FilesystemConfig:
+    write: [workspace]
+
+# One entry per contract.Tool; its input and output classes are contract.TOOLS's.
+tools > dict[contract.Tool, nanoagent.plugin.v0001.ToolConfig]:
+  neighbors:
+    description: List the neighbors of 1 to 20 nodes of the 40-company YC knowledge graph by one relation (IN_BATCH, IN_INDUSTRY or LOCATED_IN), in either direction, sorted by id
+  pin_peers:
+    description: Pin the answer key, the peers the graph gives for the query, with every edge it rests on
+
+# One entry per contract.Task; its input class is contract.TASKS's.
+tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
+  find-peers:
+    description: Find every YC company that shares a batch, location or industry with a given company, optionally only those tagged with an industry, by walking the knowledge graph
+    runner: agent
+    tools: [neighbors]
+    reference: pin_peers
+    instructions: |-
+      The graph. Every edge goes from a company node (company:<slug>) to a batch, location or industry node by IN_BATCH, LOCATED_IN or IN_INDUSTRY. A company has one batch, one location and one or two industry tags.
+      Hop 1. Call neighbors with nodes [company:<the task's company>] and relation via: these are the shared nodes.
+      Hop 2. Call neighbors with every shared node at once and relation via. Every company in their neighbors, except the starting company, is a peer; its via is every shared node it appears under, sorted.
+      Filter. When industry is not empty, its node id is industry: followed by the tag in lowercase with each run of other characters replaced by one hyphen (Food and Beverage gives industry:food-and-beverage). Call neighbors with every peer at once (at most 20 per call) and relation IN_INDUSTRY, and keep only the peers whose neighbors include that node.
+      Submit start (company:<slug>), peers sorted by id, each with its id, its name as neighbors gave it and its via, and count. Submit peers [] and count 0 when there are none. Use only ids and names the tools returned.

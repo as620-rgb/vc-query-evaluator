@@ -1,0 +1,439 @@
+[
+ {
+  "slug": "doordash",
+  "name": "DoorDash",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Restaurant delivery.",
+  "batch": "Summer 2013",
+  "industries": [
+   "Consumer",
+   "Food and Beverage"
+  ]
+ },
+ {
+  "slug": "airbnb",
+  "name": "Airbnb",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Book accommodations around the world.",
+  "batch": "Winter 2009",
+  "industries": [
+   "Consumer",
+   "Travel, Leisure and Tourism"
+  ]
+ },
+ {
+  "slug": "coinbase",
+  "name": "Coinbase",
+  "location": "Los Angeles, CA, USA",
+  "tagline": "Buy, sell, and manage cryptocurrencies.",
+  "batch": "Summer 2012",
+  "industries": [
+   "Fintech",
+   "Banking and Exchange"
+  ]
+ },
+ {
+  "slug": "groww",
+  "name": "Groww",
+  "location": "Bengaluru, KA, India",
+  "tagline": "Making financial services simple, transparent and delightful. ",
+  "batch": "Winter 2018",
+  "industries": [
+   "Fintech",
+   "Asset Management"
+  ]
+ },
+ {
+  "slug": "instacart",
+  "name": "Instacart",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Marketplace for grocery delivery and pickup",
+  "batch": "Summer 2012",
+  "industries": [
+   "Consumer",
+   "Food and Beverage"
+  ]
+ },
+ {
+  "slug": "meesho",
+  "name": "Meesho",
+  "location": "Bengaluru, KA, India",
+  "tagline": "Democratizing internet commerce for everyone in India",
+  "batch": "Summer 2016",
+  "industries": [
+   "B2B",
+   "Retail"
+  ]
+ },
+ {
+  "slug": "gitlab",
+  "name": "GitLab",
+  "location": "San Francisco, CA, USA",
+  "tagline": "A complete DevOps platform delivered as a single application.",
+  "batch": "Winter 2015",
+  "industries": [
+   "B2B",
+   "Engineering, Product and Design"
+  ]
+ },
+ {
+  "slug": "oklo",
+  "name": "Oklo",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Emission free, always on power from advanced fission power plants.",
+  "batch": "Summer 2014",
+  "industries": [
+   "Industrials",
+   "Energy"
+  ]
+ },
+ {
+  "slug": "dropbox",
+  "name": "Dropbox",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Backup and share files in the cloud.",
+  "batch": "Summer 2007",
+  "industries": [
+   "B2B",
+   "Productivity"
+  ]
+ },
+ {
+  "slug": "billiontoone",
+  "name": "BillionToOne",
+  "location": "San Francisco, CA, USA",
+  "tagline": "The genetic testing platform detecting and measuring disease.",
+  "batch": "Summer 2017",
+  "industries": [
+   "Healthcare",
+   "Diagnostics"
+  ]
+ },
+ {
+  "slug": "rigetti-computing",
+  "name": "Rigetti Computing",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Quantum coherent supercomputing.",
+  "batch": "Summer 2014",
+  "industries": [
+   "Industrials",
+   "Manufacturing and Robotics"
+  ]
+ },
+ {
+  "slug": "equipmentshare",
+  "name": "EquipmentShare",
+  "location": "Columbia, MO, USA",
+  "tagline": "Cloud solutions for the construction industry.",
+  "batch": "Winter 2015",
+  "industries": [
+   "Real Estate and Construction",
+   "Construction"
+  ]
+ },
+ {
+  "slug": "matterport",
+  "name": "Matterport",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Turn physical objects and environments into 3D models in seconds.",
+  "batch": "Winter 2012",
+  "industries": [
+   "Consumer",
+   "Virtual and Augmented Reality"
+  ]
+ },
+ {
+  "slug": "amplitude",
+  "name": "Amplitude",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Digital Analytics Platform",
+  "batch": "Winter 2012",
+  "industries": [
+   "B2B",
+   "Analytics"
+  ]
+ },
+ {
+  "slug": "pagerduty",
+  "name": "PagerDuty",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Real-time visibility into critical apps and services all in one place.",
+  "batch": "Summer 2010",
+  "industries": [
+   "B2B",
+   "Engineering, Product and Design"
+  ]
+ },
+ {
+  "slug": "ginkgo-bioworks",
+  "name": "Ginkgo Bioworks",
+  "location": "Boston, MA, USA",
+  "tagline": "Our mission is to make biology easier to engineer.",
+  "batch": "Summer 2014",
+  "industries": [
+   "Healthcare",
+   "Industrial Bio"
+  ]
+ },
+ {
+  "slug": "weave",
+  "name": "Weave",
+  "location": "Lehi, UT, USA",
+  "tagline": "Customer communication and payments platform.",
+  "batch": "Winter 2014",
+  "industries": [
+   "B2B",
+   "Office Management"
+  ]
+ },
+ {
+  "slug": "pardes-bio",
+  "name": "Pardes Biosciences",
+  "location": "San Francisco, CA, USA",
+  "tagline": "We break viruses",
+  "batch": "Summer 2020",
+  "industries": [
+   "Healthcare",
+   "Drug Discovery and Delivery"
+  ]
+ },
+ {
+  "slug": "embark-trucks",
+  "name": "Embark Trucks",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Self-driving semi trucks.",
+  "batch": "Winter 2016",
+  "industries": [
+   "Industrials",
+   "Automotive"
+  ]
+ },
+ {
+  "slug": "momentus",
+  "name": "Momentus",
+  "location": "San Francisco, CA, USA",
+  "tagline": "The space infrastructure services company",
+  "batch": "Summer 2018",
+  "industries": [
+   "Industrials",
+   "Aviation and Space"
+  ]
+ },
+ {
+  "slug": "lucira-health",
+  "name": "Lucira Health",
+  "location": "Emeryville, CA, USA",
+  "tagline": "Next generation infectious disease test kits",
+  "batch": "Winter 2015",
+  "industries": [
+   "Healthcare",
+   "Diagnostics"
+  ]
+ },
+ {
+  "slug": "segment",
+  "name": "Segment",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Software and APIs to collect, clean, and control customer data.",
+  "batch": "Summer 2011",
+  "industries": [
+   "B2B",
+   "Analytics"
+  ]
+ },
+ {
+  "slug": "algolia",
+  "name": "Algolia",
+  "location": "San Francisco, CA, USA",
+  "tagline": "A developer-friendly and enterprise-grade search API.",
+  "batch": "Winter 2014",
+  "industries": [
+   "B2B",
+   "Engineering, Product and Design"
+  ]
+ },
+ {
+  "slug": "truebill",
+  "name": "Truebill",
+  "location": "Silver Spring, MD, USA",
+  "tagline": "Live your best financial life",
+  "batch": "Winter 2016",
+  "industries": [
+   "Fintech",
+   "Consumer Finance"
+  ]
+ },
+ {
+  "slug": "twitch",
+  "name": "Twitch",
+  "location": "San Francisco, CA, USA",
+  "tagline": "A global community creating the future of live entertainment.",
+  "batch": "Winter 2007",
+  "industries": [
+   "Consumer",
+   "Content"
+  ]
+ },
+ {
+  "slug": "plangrid",
+  "name": "PlanGrid",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Mobile applications for the construction industry.",
+  "batch": "Winter 2012",
+  "industries": [
+   "Real Estate and Construction",
+   "Construction"
+  ]
+ },
+ {
+  "slug": "bellabeat",
+  "name": "Bellabeat",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Tech-powered women's wellness.",
+  "batch": "Winter 2014",
+  "industries": [
+   "Consumer",
+   "Consumer Electronics"
+  ]
+ },
+ {
+  "slug": "cruise",
+  "name": "Cruise",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Self-driving cars.",
+  "batch": "Winter 2014",
+  "industries": [
+   "Industrials",
+   "Automotive"
+  ]
+ },
+ {
+  "slug": "benchling",
+  "name": "Benchling",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Unlocking the power of biotech with modern software for modern science",
+  "batch": "Summer 2012",
+  "industries": [
+   "B2B"
+  ]
+ },
+ {
+  "slug": "casetext",
+  "name": "Casetext",
+  "location": "San Francisco, CA, USA",
+  "tagline": "We make the world's laws free and understandable. ",
+  "batch": "Summer 2013",
+  "industries": [
+   "B2B",
+   "Legal"
+  ]
+ },
+ {
+  "slug": "bird",
+  "name": "Bird",
+  "location": "Amsterdam, NH, Netherlands",
+  "tagline": "The world’s largest omnichannel communications platform",
+  "batch": "Summer 2016",
+  "industries": [
+   "B2B",
+   "Engineering, Product and Design"
+  ]
+ },
+ {
+  "slug": "brex",
+  "name": "Brex",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Business accounts, corporate cards, and spend management software.",
+  "batch": "Winter 2017",
+  "industries": [
+   "Fintech",
+   "Banking and Exchange"
+  ]
+ },
+ {
+  "slug": "the-athletic",
+  "name": "The Athletic",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Subscription sports media.",
+  "batch": "Summer 2016",
+  "industries": [
+   "Consumer",
+   "Content"
+  ]
+ },
+ {
+  "slug": "codecademy",
+  "name": "Codecademy",
+  "location": "New York City, NY, USA",
+  "tagline": "The leading online learning platform for technical skills.",
+  "batch": "Summer 2011",
+  "industries": [
+   "Education"
+  ]
+ },
+ {
+  "slug": "checkr",
+  "name": "Checkr",
+  "location": "San Francisco, CA, USA",
+  "tagline": "People infrastructure for the future of work",
+  "batch": "Summer 2014",
+  "industries": [
+   "B2B",
+   "Human Resources"
+  ]
+ },
+ {
+  "slug": "lever",
+  "name": "Lever",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Talent Acquisition Suite that combines ATS + Talent CRM",
+  "batch": "Summer 2012",
+  "industries": [
+   "B2B",
+   "Recruiting and Talent"
+  ]
+ },
+ {
+  "slug": "clipboard",
+  "name": "Clipboard",
+  "location": "San Francisco, CA, USA",
+  "tagline": "Every shift, Covered.",
+  "batch": "Winter 2017",
+  "industries": [
+   "Consumer"
+  ]
+ },
+ {
+  "slug": "heap",
+  "name": "Heap",
+  "location": "Seattle, WA, USA",
+  "tagline": "Captures user interactions with no code to generate analytics.",
+  "batch": "Winter 2013",
+  "industries": [
+   "B2B",
+   "Analytics"
+  ]
+ },
+ {
+  "slug": "sendwave",
+  "name": "Sendwave",
+  "location": "Boston, MA, USA",
+  "tagline": "Instant, no fee international remittances.",
+  "batch": "Winter 2012",
+  "industries": [
+   "Fintech",
+   "Payments"
+  ]
+ },
+ {
+  "slug": "deel",
+  "name": "Deel",
+  "location": "San Francisco, CA, USA",
+  "tagline": "The all-in-one HR and payroll platform for global teams",
+  "batch": "Winter 2019",
+  "industries": [
+   "B2B",
+   "Finance and Accounting"
+  ]
+ }
+]

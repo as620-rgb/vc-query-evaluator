@@ -1,0 +1,11 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "Ask which startups share a batch, a city or a market with the one you are looking at"
+summary: "Pick a YC company and a link (same batch, same location or same industry), and optionally an industry tag the peers must carry. The agent walks a knowledge graph of 40 YC companies hop by hop and returns every peer with the nodes it shares. The check recomputes the peers from the graph edges and confirms every path the agent claims."
+highlights:
+  - "Two- and three-hop questions answered by walking the graph, not by guessing"
+  - "Every claimed path is checked against real edges"
+  - "Nine checks, from missing and extra peers to sort order"
+steps:
+  - "Ask, for example, which B2B companies are in the same city as Brex"
+  - "The agent looks up the shared nodes, their companies and, if asked, their industries"
+  - "See the peers, what links each one, and the verdict of every check"
